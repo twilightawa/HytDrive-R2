@@ -80,8 +80,8 @@
     </button>
     <div class="app-bar">
       <a class="app-title-container" style="display: flex; align-items: center;" href="/">
-        <img src="/assets/homescreen.png" alt="FlareDrive" style="height: 24px" />
-        <h1 class="app-title" style="font-size: 20px;margin: 0 25px 0 8px; user-select: none;">FlareDrive</h1>
+        <img src="/assets/homescreen.png" alt="HytDrive" style="height: 24px" />
+        <h1 class="app-title" style="font-size: 20px;margin: 0 25px 0 8px; user-select: none;">HytDrive</h1>
       </a>
 
       <div class="search-container" :class="{ 'search-expanded': isSearchExpanded }">
@@ -2467,7 +2467,7 @@ export default {
         }
         document.title = this.cwd.replace(/.*\/(?!$)|\//g, "") === "/"
             ? "FlareDrive-R2 - 优雅的 Cloudflare R2 网盘文件库"
-            :`${this.cwd.replace(/.*\/(?!$)|\//g, "") || "/" } - 优雅的 Cloudflare R2 网盘文件库`;
+            :`${this.cwd.replace(/.*\/(?!$)|\//g, "") || "/" } - 优雅的 HytDrive 网盘文件库`;
       },
       immediate: true,
     },
