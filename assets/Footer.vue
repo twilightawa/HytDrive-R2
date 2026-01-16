@@ -31,7 +31,7 @@
     <div class="powered">Powered by <a href="https://workers.cloudflare.com/" target="_blank"
         rel="noopener noreferrer">Cloudflare Workers</a></div>
 
-    <div style="margin:10px 0;">© 2025 FlareDrive. All rights reserved.</div>
+    <div style="margin:10px 0;">© 2025 HytDrive. All rights reserved.</div>
   </footer>
 </template>
 
@@ -40,10 +40,10 @@ export default {
   name: "Footer",
   data() {
     return {
-      homeUrl: "https://www.sztcrs.com/",
-      blogUrl: "https://blog.sztcrs.com/",
-      githubUrl: "https://github.com/52op",
-      emailUrl: "mailto:admin@sztcrs.com"
+      homeUrl: "https://www.hytzyz.online/",
+      blogUrl: "https://www.hytzyz.online/404/",
+      githubUrl: "https://www.hytzyz.online/404/",
+      emailUrl: "mailto:admin@hytzyz.online"
     };
   }
 };
